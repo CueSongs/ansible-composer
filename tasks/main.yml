@@ -1,0 +1,4 @@
+---
+
+- name: Fetching Composer
+  get_url: url=https://getcomposer.org/download/{{ composer_version }}/composer.phar dest=/usr/local/bin/composer mode=0755
